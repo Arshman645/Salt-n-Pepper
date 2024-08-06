@@ -7,6 +7,422 @@
     <link rel="stylesheet" href="Salt'n'Pepper.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+    <style>
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,412 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background: #717171;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    margin-top: -7px;
+    font-size: large;
+    gap: 20px;
+    background-color: #1a1818;
+}
+
+.a:hover{
+    cursor: pointer;
+}
+
+.q{
+    margin-left: 15pc;
+}
+
+.a6{
+    border: 1px solid gray;
+    height: 70px;
+    width: 10pc;
+    border-radius: 40px;
+    margin-left: 100px;
+}
+
+.a7{
+    background-color: crimson;
+    height: 70px;
+    width: 10pc;
+    border-radius: 40px;
+}
+span{
+    background-color: white;
+    color: crimson;
+    border-radius: 50%;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.b1{
+    height: 40pc;
+    width: 80pc;
+    margin-top: 20px;
+}
+
+.b2{
+    height: 40pc;
+    width: 80pc;
+    margin-top: 20px;
+}
+
+.b3{
+    height: 40pc;
+    width: 80pc;
+    margin-top: 20px;
+}
+
+.b4{
+    height: 40pc;
+    width: 80pc;
+    margin-top: 20px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 50px;
+    width: fit-content;
+}
+
+.s{
+    height: fit-content;
+    margin-top: 60px;
+}
+
+.s:hover{
+    cursor: pointer;
+}
+
+h4{
+    font-size: 1.2rem;
+    color: #aaa;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.cards{
+    display: flex;
+    margin-left: 18pc;
+}
+
+.c1{
+    height: 9pc;
+    width: 15pc;
+    border-radius: 5%;
+}
+
+.c1:hover{
+    cursor: pointer;
+}
+
+.c2{
+    height: 9pc;
+    width: 15pc;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+.c2:hover{
+    cursor: pointer;
+}
+
+.c3{
+    height: 9pc;
+    width: 15pc;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+.c3:hover{
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30pc;
+}
+
+.b11{
+    border: 1px solid gray;
+    height: 70px;
+    width: 10pc;
+    border-radius: 40px;
+    margin-left: 20pc;
+    margin-top: 25px;
+}
+
+.b11:hover{
+    cursor: pointer;
+    background-color: #aaa;
+    color: rgb(238, 255, 0);
+}
+
+.b22{
+    border: 1px solid gray;
+    height: 70px;
+    width: 10pc;
+    border-radius: 40px;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+.b22:hover{
+    cursor: pointer;
+    background-color: #aaa;
+    color: rgb(238, 255, 0);
+}
+
+.b33{
+    border: 1px solid gray;
+    height: 70px;
+    width: 10pc;
+    border-radius: 40px;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+.b33:hover{
+    cursor: pointer;
+    background-color: #aaa;
+    color: rgb(238, 255, 0);
+}
+
+.res{
+    height: 80pc;
+    background-color: #1a1818;
+}
+
+.s1{
+    background-color: dimgrey;
+    margin-top: 20px;
+    margin-left: 30pc;
+}
+
+h1.o{
+   background-color: #1a1818;
+   margin-left: 400px;
+}
+.r{
+    background-color: #1a1818;
+}
+
+.t{
+    background-color: #1a1818;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.er{
+    background-color: #1a1818;
+    gap: 20px;
+}
+
+.u{
+    margin-top: -30px;
+    background-color: #1a1818;
+    height: 30px;
+    width: fit-content;
+}
+
+.rt{
+    background-color: #1a1818;
+    margin-top: -44px;
+}
+
+.ry{
+    background-color: #1a1818;
+    margin-left: -49pc;
+}
+
+#io{
+    background-color: #1a1818;
+    color: #aaa;
+}
+
+#ui{
+    background-color: #1a1818;
+    margin-left: -16pc;
+    color: #aaa;
+}
+
+.hi{
+    border: 1px solid gray;
+    height: 40px;
+    width: 10pc;
+    border-radius: 40px;
+}
+
+.pi{
+    margin-top: -200px;
+    margin-left: 500px;
+}
+
+
+.fais{
+    background-color: #1a1818;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.po{
+    margin-top: 20px;
+}
+
+#pl{
+    margin-left: 20px;
+}
+
+.ml{
+    background-color: #1a1818;
+    margin-top: -16pc;
+    margin-left: 35pc;
+    width: fit-content;
+    height: fit-content;
+}
+
+.ro{
+    background-color: #1a1818;
+    margin-top: -10pc;
+    margin-left: 1pc;
+    color: #aaa;
+    height: fit-content;
+    max-width: fit-content;
+}
+
+#tr{
+    background-color: #1a1818;
+    margin-top: -2000;
+    margin-left: 35pc;
+    color: #aaa;
+    height: fit-content;
+    width: fit-content;
+}
+
+.yt{
+    margin-top: -7pc;
+    margin-left: 0pc;
+}
+
+#we{
+    margin-top: -1.5pc;
+    margin-left: -13pc;
+    height: 40px;
+    width: 10pc;
+}
+
+#mn{
+    background-color: #1a1818;
+}
+
+#rel{
+    margin-left: -47pc;
+}
+
+#yu{
+    background-color: #1a1818;
+    margin-left: -50pc;
+}
+
+#wr{
+    margin-top: 3pc;
+    margin-left: 3pc;
+}
+
+.wq{
+    margin-top: -20pc;
+    margin-left: 25pc;
+}
+
+.sa{
+    background-color: black;
+    margin-top: 3pc;
+    margin-left: 27pc;
+}
+
+.ah{
+    margin-top: -1px;
+    margin-left: 24pc;
+}
+
+.up{
+    height: 15pc;
+    width: 20pc;
+    margin-left: 3pc;
+}
+
+.you{
+    height: 15pc;
+    width: 20pc;
+    margin-top: -1pc;
+    margin-left: 3pc;
+}
+
+.kl{
+    height: 15pc;
+    width: 20pc;
+    margin-left: 3pc;
+}
+
+.are{
+    color: red;
+    margin-left: 7pc;
+    margin-top: 1pc;
+    text-transform: uppercase;
+}
+
+.h2{
+    font-size: x-large;
+    margin-left: 4pc;
+}
+
+.h3{
+    margin-top: -3pc;
+    margin-left: -49pc;
+}
+
+#o{
+    color: #8a8a8a;
+    background-color: black;
+    margin-left: -1pc;
+}
+        </style>
 <body>
 <div class="navbar">
 <button class="a"></button>
