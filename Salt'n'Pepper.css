@@ -35,7 +35,6 @@ button{
     margin-top: -7px;
     font-size: large;
     gap: 20px;
-    background-color: #1a1818;
 }
 
 .a:hover{
@@ -52,6 +51,7 @@ button{
     width: 10pc;
     border-radius: 40px;
     margin-left: 100px;
+    margin-top: 4pc;
 }
 
 .a7{
@@ -59,6 +59,7 @@ button{
     height: 70px;
     width: 10pc;
     border-radius: 40px;
+    margin-top: 4pc;
 }
 span{
     background-color: white;
@@ -73,27 +74,27 @@ span{
 }
 
 .b1{
-    height: 40pc;
-    width: 80pc;
-    margin-top: 20px;
+    height: 50pc;
+    width: 200pc;
+    margin-top: 0px;
 }
 
 .b2{
-    height: 40pc;
-    width: 80pc;
-    margin-top: 20px;
+    height: 50pc;
+    width: 200pc;
+    margin-top: 0px;
 }
 
 .b3{
-    height: 40pc;
-    width: 80pc;
-    margin-top: 20px;
+    height: 50pc;
+    width: 200pc;
+    margin-top: 0px;
 }
 
 .b4{
-    height: 40pc;
-    width: 80pc;
-    margin-top: 20px;
+    height: 50pc;
+    width: 200pc;
+    margin-top: 0px;
 }
 
 .intro{
@@ -126,6 +127,11 @@ h4{
 .cards{
     display: flex;
     margin-left: 18pc;
+}
+
+.card{
+    display: inline;
+    margin-left: 19pc;
 }
 
 .c1{
@@ -171,7 +177,7 @@ h4{
     height: 70px;
     width: 10pc;
     border-radius: 40px;
-    margin-left: 20pc;
+    margin-left: 39pc;
     margin-top: 25px;
 }
 
@@ -224,7 +230,8 @@ h4{
 
 h1.o{
    background-color: #1a1818;
-   margin-left: 400px;
+   margin-left: 45pc;
+   margin-top: -3pc;
 }
 .r{
     background-color: #1a1818;
@@ -256,7 +263,8 @@ h1.o{
 
 .ry{
     background-color: #1a1818;
-    margin-left: -49pc;
+    margin-left: -90pc;
+    margin-top: -2pc;
 }
 
 #io{
@@ -278,7 +286,7 @@ h1.o{
 }
 
 .pi{
-    margin-top: -200px;
+    margin-top: -200pc;
     margin-left: 500px;
 }
 
@@ -409,4 +417,46 @@ h1.o{
     color: #8a8a8a;
     background-color: black;
     margin-left: -1pc;
+}
+
+#Salt{
+    background-color: #1a1818;
+    margin-left: 50pc;
+}
+
+#ban{
+    margin-top: 5pc;
+    margin-left: 30pc;
+}
+
+#N{
+    margin-left: 30pc;
+}
+
+#ol{
+    margin-left: 60pc;
+    color: #909090;
+    background-color: #1a1818;
+}
+
+#ul{
+    margin-left: 45pc;
+    color: #909090;
+    background-color: #1a1818;
+}
+
+.i{
+    margin-top: -13pc;
+   margin-left: 75pc;
+   height: 1pc;
+   width: fit-content;
+}
+
+.m0{
+    margin-top:-50pc;
+    margin-left: 30pc;
+    border-radius: 30px;
+    height: 2pc;
+    width: 10pc;
+    border: 0.5px solid #aaa;
 }
